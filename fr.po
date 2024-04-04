@@ -1,0 +1,622 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* kzm_crm_call_tender
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-04 21:28+0000\n"
+"PO-Revision-Date: 2024-04-04 21:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__sub_folder_ids
+msgid " Sous espaces de travails "
+msgstr "Sous espaces de travails"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__opportunite_id
+msgid "AO N°"
+msgstr "AO N°"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_needaction
+msgid "Action Needed"
+msgstr "Nécessite une action"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_ids
+msgid "Activities"
+msgstr "Activités"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Décoration d’exception d’activité"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_state
+msgid "Activity State"
+msgstr "État d'activité"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icône de type d’activité"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields.selection,name:kzm_crm_call_tender.selection__crm_caution__state__adjuge
+msgid "Adjuge"
+msgstr "Ajusteur"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__amount
+msgid "Amount"
+msgstr "Montant"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__attachment
+msgid "Attachment"
+msgstr "Annexe"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nombre de pièces jointes"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__bank_id
+msgid "Bank"
+msgstr "Banque"
+
+#. module: kzm_crm_call_tender
+#: model:ir.actions.act_window,name:kzm_crm_call_tender.crm_lead_checklist_action
+msgid "CRM Lead Checklist"
+msgstr "Liste de contrôle des prospects CRM"
+
+#. module: kzm_crm_call_tender
+#: model:ir.actions.act_window,name:kzm_crm_call_tender.crm_lead_element_action
+msgid "CRM Lead Element"
+msgstr "Élément de prospect CRM"
+
+#. module: kzm_crm_call_tender
+#: model:ir.actions.act_window,name:kzm_crm_call_tender.crm_lead_folder_action
+msgid "CRM Lead Folder"
+msgstr "Dossier de prospects CRM"
+
+#. module: kzm_crm_call_tender
+#: model:ir.actions.act_window,name:kzm_crm_call_tender.crm_lead_folder_model_action
+msgid "CRM Lead Folder Model"
+msgstr "Modèle de dossier de prospect CRM"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__caution
+msgid "Caution"
+msgstr "Attention"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__caution_number
+msgid "Caution Number"
+msgstr "Numéro de mise en garde"
+
+#. module: kzm_crm_call_tender
+#: model_terms:ir.ui.view,arch_db:kzm_crm_call_tender.kzm_crm_call_tender
+msgid "Cautions"
+msgstr "Précautions à prendre"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__check
+msgid "Check"
+msgstr "Vérifier"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__check_elements_ids
+msgid "Check Elements"
+msgstr "Cocher tous les éléments"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__create_uid
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__create_uid
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_element__create_uid
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__create_uid
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder_model__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__create_date
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__create_date
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_element__create_date
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__create_date
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder_model__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields.selection,name:kzm_crm_call_tender.selection__crm_caution__type__definitive
+msgid "Definitive"
+msgstr "Definitive"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields.selection,name:kzm_crm_call_tender.selection__crm_caution__state__depose
+msgid "Depose"
+msgstr "Déposition"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__reference_caution
+msgid "Deposit Reference"
+msgstr "Référence du dépôt"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__deposit_desination
+msgid "Deposit desinator"
+msgstr "Désinateur de dépôt"
+
+#. module: kzm_crm_call_tender
+#. odoo-python
+#: code:addons/kzm_crm_call_tender/models/crm_lead.py:0
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__caution_ids
+#, python-format
+msgid "Deposits"
+msgstr "Dépôts"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__display_name
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__display_name
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_element__display_name
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__display_name
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder_model__display_name
+msgid "Display Name"
+msgstr "Pseudonyme"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model,name:kzm_crm_call_tender.model_documents_document
+msgid "Document"
+msgstr "Document"
+
+#. module: kzm_crm_call_tender
+#: model_terms:ir.ui.view,arch_db:kzm_crm_call_tender.document_smart_button
+msgid "Documents"
+msgstr "Documents"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model,name:kzm_crm_call_tender.model_documents_folder
+msgid "Documents Workspace"
+msgstr "Espace de travail des documents"
+
+#. module: kzm_crm_call_tender
+#: model_terms:ir.ui.view,arch_db:kzm_crm_call_tender.document_smart_button
+msgid "Dossiers"
+msgstr "Dossiers"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__element_id
+msgid "Element"
+msgstr "Élément"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder_model__elements_ids
+#: model:ir.ui.menu,name:kzm_crm_call_tender.menu_crm_lead_categ
+#: model_terms:ir.ui.view,arch_db:kzm_crm_call_tender.crm_lead_folder_form_view
+#: model_terms:ir.ui.view,arch_db:kzm_crm_call_tender.crm_lead_folder_model_form_view
+msgid "Elements"
+msgstr "Éléments"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields.selection,name:kzm_crm_call_tender.selection__crm_caution__state__en_validation
+msgid "En validation"
+msgstr "En validation"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__folder_id
+msgid "Espace de travail"
+msgstr "Espace de travail"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_lead__date_deadline
+msgid "Estimate of the date on which the opportunity will be won."
+msgstr "Estimation de la date à laquelle l'opportunité sera gagnée."
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__date_deadline
+msgid "Expected Closing"
+msgstr "Date de clôture prévue"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__folder_id
+msgid "Folder"
+msgstr "Dossier"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__folders_ids
+#: model:ir.ui.menu,name:kzm_crm_call_tender.menu_crm_config_folders
+#: model:ir.ui.menu,name:kzm_crm_call_tender.menu_crm_lost_reason
+#: model_terms:ir.ui.view,arch_db:kzm_crm_call_tender.crm_lead_inherited_view_form
+msgid "Folders"
+msgstr "Dossiers"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_follower_ids
+msgid "Followers"
+msgstr "Abonnés"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Abonnés (Partenaires)"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome icon e.g. fa-tasks"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__guarantee_period
+msgid "Guarantee period"
+msgstr "Périodes de garantie"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__has_message
+msgid "Has Message"
+msgstr "A un Message"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__id
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__id
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_element__id
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__id
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder_model__id
+msgid "ID"
+msgstr "ID"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_exception_icon
+msgid "Icon"
+msgstr "Icône"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icône pour indiquer une activité exceptionnelle."
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si coché, de nouveaux messages demandent votre attention."
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__message_has_error
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si actif, certains messages ont une erreur de livraison."
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields.selection,name:kzm_crm_call_tender.selection__crm_caution__state__initiation
+msgid "Initiation"
+msgstr "Début"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_is_follower
+msgid "Is Follower"
+msgstr "Est un abonné"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__write_uid
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__write_uid
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_element__write_uid
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__write_uid
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder_model__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__write_date
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__write_date
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_element__write_date
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__write_date
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder_model__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__lead_id
+msgid "Lead"
+msgstr "Modérateur"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model,name:kzm_crm_call_tender.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Piste/opportunité"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__maintenance_caution
+msgid "Maintenance Caution"
+msgstr "Précautions d’entretien"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__maintenance_caution_number
+msgid "Maintenance Caution Number"
+msgstr "Numéro de mise en garde pour l'entretien"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__contract_duration
+msgid "Maintenance Duration"
+msgstr "durée d'entretien"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__maintenance_estimation
+msgid "Maintenance Estimation"
+msgstr "Estimation de la maintenance"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__maintenance_time
+msgid "Maintenance Time"
+msgstr "temps d'entretien du matériel"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__manager_id
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder_model__manager_id
+msgid "Manager"
+msgstr "Gestionnaire"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_has_error
+msgid "Message Delivery error"
+msgstr "Erreur d'envoi du message"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_ids
+msgid "Messages"
+msgstr "Messages"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_element__model_folder_id
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder__model_folder_id
+msgid "Model Folder"
+msgstr "Dossier du modèle"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Date limite de l'Activité à Venir"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__num_account_destination
+msgid "N destination account"
+msgstr "Compte de destination"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__num_account_society
+msgid "N society account"
+msgstr "Compte de la société N"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_checklist__filename
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_element__name
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead_folder_model__name
+#: model_terms:ir.ui.view,arch_db:kzm_crm_call_tender.crm_lead_element_form_view
+#: model_terms:ir.ui.view,arch_db:kzm_crm_call_tender.crm_lead_folder_model_form_view
+msgid "Name"
+msgstr "Nom"
+
+#. module: kzm_crm_call_tender
+#. odoo-python
+#: code:addons/kzm_crm_call_tender/models/crm_caution.py:0
+#: code:addons/kzm_crm_call_tender/models/crm_caution.py:0
+#: code:addons/kzm_crm_call_tender/models/crm_caution.py:0
+#: code:addons/kzm_crm_call_tender/models/crm_caution.py:0
+#, python-format
+msgid "New"
+msgstr "Nouveau"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Prochain événement du calendrier des activités"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Date limite de l'Activité à Venir"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_summary
+msgid "Next Activity Summary"
+msgstr "Résumé d'activité suivant"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_type_id
+msgid "Next Activity Type"
+msgstr "Type d'Activités à Venir"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__nbr_documents
+msgid "Nombre de documents"
+msgstr "Nombre de documents : 1"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__nbr_sub_folders
+msgid "Nombre de sous espaces"
+msgstr "Nombre de sous espaces"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields.selection,name:kzm_crm_call_tender.selection__crm_caution__state__non_adjuge
+msgid "Non adjuge"
+msgstr "Non adjuge"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__number
+msgid "Number"
+msgstr "Nombre"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'actions"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__nbr_cautions
+msgid "Number of deposits"
+msgstr "Nombre de d'acomptes"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d’erreurs"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Nombre de messages nécessitant une action"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de messages avec des erreurs d'envoi"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__intitule_ao
+msgid "Numéro référence"
+msgstr "Numéro de référence :"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_documents_document__opportunity_id
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_documents_folder__opportunity_id
+msgid "Opportunity"
+msgstr "Opportunités"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__order_number
+msgid "Order Number"
+msgstr "Numéro de commande"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__penality_percentage
+msgid "Penalty in %"
+msgstr "Pénalité en %"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__project_id
+msgid "Project"
+msgstr "Projet"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__project_estimation
+msgid "Project Estimation"
+msgstr "Estimation des coûts du projet"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__prospectus_filing_date
+msgid "Prospectus Filing Date"
+msgstr "Date de dépôt du prospectus"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields.selection,name:kzm_crm_call_tender.selection__crm_caution__type__provisoire
+msgid "Provisoire"
+msgstr "Provisoire"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__rating_ids
+msgid "Ratings"
+msgstr "Notations"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__activity_user_id
+msgid "Responsible User"
+msgstr "Responsable"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields.selection,name:kzm_crm_call_tender.selection__crm_caution__state__restitue
+msgid "Restitue"
+msgstr "Restitue"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erreur d’envoi du SMS"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields.selection,name:kzm_crm_call_tender.selection__crm_caution__state__soumise
+msgid "Soumise"
+msgstr "Soumise"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__document_ids
+msgid "Sous dossiers"
+msgstr "Sous dossiers"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__state
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__state_def
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__state_prov
+msgid "State"
+msgstr "État"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Statut basé sur les activités\n"
+"En retard : la date d'échéance est déjà dépassée\n"
+"Aujourd'hui : la date d'activité est aujourd'hui\n"
+"Planifiée : activités futures"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__type
+msgid "Type"
+msgstr "Type"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Type d'activité d'exception enregistrée."
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_lead__visit_date
+msgid "Visit Date"
+msgstr "Date de visite"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,field_description:kzm_crm_call_tender.field_crm_caution__website_message_ids
+msgid "Website Messages"
+msgstr "Messages de site web"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model.fields,help:kzm_crm_call_tender.field_crm_caution__website_message_ids
+msgid "Website communication history"
+msgstr "Historique de communication du site web"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model,name:kzm_crm_call_tender.model_crm_caution
+msgid "crm caution"
+msgstr "mise en garde GRC"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model,name:kzm_crm_call_tender.model_crm_lead_checklist
+msgid "crm.lead.checklist"
+msgstr "crm.lead.checklist"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model,name:kzm_crm_call_tender.model_crm_lead_element
+msgid "crm.lead.element"
+msgstr "crm.lead.element"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model,name:kzm_crm_call_tender.model_crm_lead_folder
+msgid "crm.lead.folder"
+msgstr "crm.lead.folder"
+
+#. module: kzm_crm_call_tender
+#: model:ir.model,name:kzm_crm_call_tender.model_crm_lead_folder_model
+msgid "crm.lead.folder.model"
+msgstr "crm.lead.folder.model"
