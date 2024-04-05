@@ -51,7 +51,7 @@
                     // Create a download link
                     const downloadLink = document.getElementById('downloadLink');
                     downloadLink.href = URL.createObjectURL(blob);
-                    downloadLink.download = `${file.name.split('.')[0]}_${file.name.substring(0, 2)}.po`;
+                    downloadLink.download = `${file.name.substring(0, 2)}.po`;
 
                     // Simulate a click event on the download link to trigger the download
                     downloadLink.click();
